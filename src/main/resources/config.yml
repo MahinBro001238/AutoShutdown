@@ -1,0 +1,28 @@
+# =============================================
+# Auto Shutdown v1.0
+# Made by MahinBro001238
+# Licensed under the Apache License 2.0
+# For support or questions, join my discord server:
+# https://discord.gg/8yrbGUCFFD
+# =============================================
+
+# The time (in seconds) after which to shutdown the server when all players leave
+time: 600
+
+# Commands to execute before the server is to be shutted down
+# If you don't have any commands you want to execute before shutting
+# the server down, set this field to null like
+#
+# commands: null
+#
+# Otherwise add your commands like
+#
+# commands:
+#   - "say Server shutting down"
+#   - "broadcast Goodbye!"
+#
+commands: null
+
+# The message sent to a player when they don't have the permission to execute the /autoshutdownreload command
+# Supports '&' color codes (e.g. "&a" = green, "&e" = yellow, "&c" = red)
+no_permission_message: "&cYou don't have permission to use this command."

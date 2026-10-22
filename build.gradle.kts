@@ -1,0 +1,16 @@
+plugins {
+    java
+}
+group = "com.mahin"
+version = "1.0"
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(8)
+    }
+}
+repositories {
+    maven("https://repo.papermc.io/repository/maven-public/")
+}
+dependencies {
+    compileOnly("com.destroystokyo.paper:paper-api:1.9.4-R0.1-SNAPSHOT")
+}

@@ -1,0 +1,15 @@
+name: AutoShutdown
+version: 1.0
+main: com.mahin.Plugin
+api-version: 1.9
+description: A plugin that automatically shuts down servers when there are no online players
+author: MahinBro001238
+website: https://github.com/MahinBro001238
+permissions:
+  autoshutdown.reload:
+    description: Allows a player to reload the plugin's config
+    default: op
+commands:
+  autoshutdownreload:
+    usage: /autoshutdownreload
+    description: Reload the plugin's config
